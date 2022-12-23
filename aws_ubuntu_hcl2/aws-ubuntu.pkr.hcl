@@ -16,7 +16,7 @@ source "amazon-ebs" "ubuntu" {
 
   source_ami_filter {
     filters = {
-      name                = "ubuntu/images/*ubuntu-xenial-16.04-amd64-server-*"
+      name                 = "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20221201"
       root-device-type    = "ebs"
       virtualization-type = "hvm"
     }
